@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/splashFragment"
+    >
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.tapbi.applock.ui.main.splash.SplashFragment"
+        android:label="SplashFragment" >
+        <action
+            android:id="@+id/action_splashFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.tapbi.applock.ui.main.home.HomeFragment"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_themesFragment"
+            app:destination="@id/themesFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_backGroundFragment"
+            app:destination="@id/backGroundFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_unlockSettingFragment"
+            app:destination="@id/unlockSettingFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_catchIntruderFragment"
+            app:destination="@id/catchIntruderFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_settingQuestionFragment"
+            app:destination="@id/settingQuestionFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_changePassCodeFragment"
+            app:destination="@id/changePassCodeFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_changeDrawFragment"
+            app:destination="@id/changeDrawFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.tapbi.applock.ui.main.search.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" >
+        <action
+            android:id="@+id/action_searchFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/themesFragment"
+        android:name="com.tapbi.applock.ui.main.themes.ThemesFragment"
+        android:label="ThemesFragment" />
+    <fragment
+        android:id="@+id/backGroundFragment"
+        android:name="com.tapbi.applock.ui.main.background.BackGroundFragment"
+        android:label="BackGroundFragment" />
+    <fragment
+        android:id="@+id/unlockSettingFragment"
+        android:name="com.tapbi.applock.ui.main.unlocksetting.UnlockSettingFragment"
+        android:label="UnlockSettingFragment" >
+        <action
+            android:id="@+id/action_unlockSettingFragment_to_changeDrawFragment"
+            app:destination="@id/changeDrawFragment" />
+        <action
+            android:id="@+id/action_unlockSettingFragment_to_changePassCodeFragment"
+            app:destination="@id/changePassCodeFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/catchIntruderFragment"
+        android:name="com.tapbi.applock.ui.main.catchintruder.CatchIntruderFragment"
+        android:label="CatchIntruderFragment" >
+        <action
+            android:id="@+id/action_catchIntruderFragment_to_imageDescriptionFragment"
+            app:destination="@id/imageDescriptionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/changeDrawFragment"
+        android:name="com.tapbi.applock.ui.main.changedraw.ChangeDrawFragment"
+        android:label="ChangeDrawFragment" >
+        <action
+            android:id="@+id/changeDrawFragment_to_settingQuestionFragment"
+            app:destination="@id/settingQuestionFragment" />
+        <action
+            android:id="@+id/action_changeDrawFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/changePassCodeFragment"
+        android:name="com.tapbi.applock.ui.main.changepass.ChangePassCodeFragment"
+        android:label="ChangePassCodeFragment" >
+        <action
+            android:id="@+id/action_changePassCodeFragment_to_settingQuestionFragment"
+            app:destination="@id/settingQuestionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingQuestionFragment"
+        android:name="com.tapbi.applock.ui.main.setting.SettingQuestionFragment"
+        android:label="SettingQuestionFragment" >
+        <action
+            app:popUpToInclusive="true"
+            android:id="@+id/action_settingQuestionFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_settingQuestionFragment_to_changeDrawFragment"
+            app:destination="@id/changeDrawFragment" />
+        <action
+            android:id="@+id/action_settingQuestionFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/imageDescriptionFragment"
+        android:name="com.tapbi.applock.ui.main.images.ImageDescriptionFragment"
+        android:label="ImageDescriptionFragment" />
+
+</navigation>

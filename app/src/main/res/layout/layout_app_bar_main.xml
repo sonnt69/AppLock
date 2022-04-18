@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.MainActivity">
+
+    <ImageView
+        android:paddingTop="@dimen/padding_top_activity"
+        android:visibility="visible"
+        android:layout_marginTop="@dimen/height_toolbar"
+        android:id="@+id/v_backGround"
+        android:layout_width="match_parent"
+        android:layout_height="536dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg_drawer" />
+
+    <include
+        android:layout_marginTop="@dimen/padding_top_activity"
+        android:id="@+id/content_main"
+        layout="@layout/layout_content_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

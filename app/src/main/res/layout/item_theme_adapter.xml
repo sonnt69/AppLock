@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:layout_marginEnd="@dimen/margin_8dp"
+            android:layout_marginTop="@dimen/margin_8dp"
+            app:layout_constraintEnd_toEndOf="@+id/img"
+            app:layout_constraintTop_toTopOf="@+id/img"
+            android:src="@drawable/ic_tick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:visibility="gone"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="@+id/img"
+            app:layout_constraintEnd_toEndOf="@+id/img"
+            app:layout_constraintStart_toStartOf="@+id/img"
+            app:layout_constraintTop_toTopOf="@+id/img" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,257 @@
+Index: patternlockview/build/intermediates/incremental/packageDebugResources/compile-file-map.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#Tue Sep 08 09:10:12 ICT 2020\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/patternlockview/build/intermediates/incremental/packageDebugResources/compile-file-map.properties b/patternlockview/build/intermediates/incremental/packageDebugResources/compile-file-map.properties
+--- a/patternlockview/build/intermediates/incremental/packageDebugResources/compile-file-map.properties	
++++ b/patternlockview/build/intermediates/incremental/packageDebugResources/compile-file-map.properties	
+@@ -1,1 +1,1 @@
+-#Tue Sep 08 09:10:12 ICT 2020
++#Thu Feb 17 11:22:10 ICT 2022
+Index: patternlockview/build/outputs/logs/manifest-merger-debug-report.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>-- Merging decision tree log ---\r\nmanifest\r\nADDED from E:\\hoang\\android\\app\\applock\\patternlockview\\src\\main\\AndroidManifest.xml:1:1-53\r\nINJECTED from E:\\hoang\\android\\app\\applock\\patternlockview\\src\\main\\AndroidManifest.xml:1:1-53\r\nINJECTED from E:\\hoang\\android\\app\\applock\\patternlockview\\src\\main\\AndroidManifest.xml:1:1-53\r\nINJECTED from E:\\hoang\\android\\app\\applock\\patternlockview\\src\\main\\AndroidManifest.xml:1:1-53\r\nINJECTED from E:\\hoang\\android\\app\\applock\\patternlockview\\src\\main\\AndroidManifest.xml:1:1-53\r\nINJECTED from E:\\hoang\\android\\app\\applock\\patternlockview\\src\\main\\AndroidManifest.xml:1:1-53\r\nINJECTED from E:\\hoang\\android\\app\\applock\\patternlockview\\src\\main\\AndroidManifest.xml:1:1-53\r\n\tpackage\r\n\t\tADDED from E:\\hoang\\android\\app\\applock\\patternlockview\\src\\main\\AndroidManifest.xml:1:11-51\r\n\t\tINJECTED from E:\\hoang\\android\\app\\applock\\patternlockview\\src\\main\\AndroidManifest.xml\r\n\t\tINJECTED from E:\\hoang\\android\\app\\applock\\patternlockview\\src\\main\\AndroidManifest.xml\r\n\tandroid:versionName\r\n\t\tINJECTED from E:\\hoang\\android\\app\\applock\\patternlockview\\src\\main\\AndroidManifest.xml\r\n\t\tADDED from E:\\hoang\\android\\app\\applock\\patternlockview\\src\\main\\AndroidManifest.xml:1:1-53\r\n\t\tINJECTED from E:\\hoang\\android\\app\\applock\\patternlockview\\src\\main\\AndroidManifest.xml\r\n\txmlns:android\r\n\t\tADDED from E:\\hoang\\android\\app\\applock\\patternlockview\\src\\main\\AndroidManifest.xml:1:1-53\r\n\tandroid:versionCode\r\n\t\tINJECTED from E:\\hoang\\android\\app\\applock\\patternlockview\\src\\main\\AndroidManifest.xml\r\n\t\tADDED from E:\\hoang\\android\\app\\applock\\patternlockview\\src\\main\\AndroidManifest.xml:1:1-53\r\n\t\tINJECTED from E:\\hoang\\android\\app\\applock\\patternlockview\\src\\main\\AndroidManifest.xml\r\nuses-sdk\r\nINJECTED from E:\\hoang\\android\\app\\applock\\patternlockview\\src\\main\\AndroidManifest.xml reason: use-sdk injection requested\r\nINJECTED from E:\\hoang\\android\\app\\applock\\patternlockview\\src\\main\\AndroidManifest.xml\r\nINJECTED from E:\\hoang\\android\\app\\applock\\patternlockview\\src\\main\\AndroidManifest.xml\r\nINJECTED from E:\\hoang\\android\\app\\applock\\patternlockview\\src\\main\\AndroidManifest.xml\r\nINJECTED from E:\\hoang\\android\\app\\applock\\patternlockview\\src\\main\\AndroidManifest.xml\r\n\tandroid:targetSdkVersion\r\n\t\tINJECTED from E:\\hoang\\android\\app\\applock\\patternlockview\\src\\main\\AndroidManifest.xml\r\n\t\tADDED from E:\\hoang\\android\\app\\applock\\patternlockview\\src\\main\\AndroidManifest.xml\r\n\t\tINJECTED from E:\\hoang\\android\\app\\applock\\patternlockview\\src\\main\\AndroidManifest.xml\r\n\tandroid:minSdkVersion\r\n\t\tINJECTED from E:\\hoang\\android\\app\\applock\\patternlockview\\src\\main\\AndroidManifest.xml\r\n\t\tADDED from E:\\hoang\\android\\app\\applock\\patternlockview\\src\\main\\AndroidManifest.xml\r\n\t\tINJECTED from E:\\hoang\\android\\app\\applock\\patternlockview\\src\\main\\AndroidManifest.xml\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/patternlockview/build/outputs/logs/manifest-merger-debug-report.txt b/patternlockview/build/outputs/logs/manifest-merger-debug-report.txt
+--- a/patternlockview/build/outputs/logs/manifest-merger-debug-report.txt	
++++ b/patternlockview/build/outputs/logs/manifest-merger-debug-report.txt	
+@@ -1,37 +1,37 @@
+ -- Merging decision tree log ---
+ manifest
+-ADDED from E:\hoang\android\app\applock\patternlockview\src\main\AndroidManifest.xml:1:1-53
+-INJECTED from E:\hoang\android\app\applock\patternlockview\src\main\AndroidManifest.xml:1:1-53
+-INJECTED from E:\hoang\android\app\applock\patternlockview\src\main\AndroidManifest.xml:1:1-53
+-INJECTED from E:\hoang\android\app\applock\patternlockview\src\main\AndroidManifest.xml:1:1-53
+-INJECTED from E:\hoang\android\app\applock\patternlockview\src\main\AndroidManifest.xml:1:1-53
+-INJECTED from E:\hoang\android\app\applock\patternlockview\src\main\AndroidManifest.xml:1:1-53
+-INJECTED from E:\hoang\android\app\applock\patternlockview\src\main\AndroidManifest.xml:1:1-53
++ADDED from C:\Users\Anh Trung\Documents\hoangld_lockapp\patternlockview\src\main\AndroidManifest.xml:1:1-53
++INJECTED from C:\Users\Anh Trung\Documents\hoangld_lockapp\patternlockview\src\main\AndroidManifest.xml:1:1-53
++INJECTED from C:\Users\Anh Trung\Documents\hoangld_lockapp\patternlockview\src\main\AndroidManifest.xml:1:1-53
++INJECTED from C:\Users\Anh Trung\Documents\hoangld_lockapp\patternlockview\src\main\AndroidManifest.xml:1:1-53
++INJECTED from C:\Users\Anh Trung\Documents\hoangld_lockapp\patternlockview\src\main\AndroidManifest.xml:1:1-53
++INJECTED from C:\Users\Anh Trung\Documents\hoangld_lockapp\patternlockview\src\main\AndroidManifest.xml:1:1-53
++INJECTED from C:\Users\Anh Trung\Documents\hoangld_lockapp\patternlockview\src\main\AndroidManifest.xml:1:1-53
+ 	package
+-		ADDED from E:\hoang\android\app\applock\patternlockview\src\main\AndroidManifest.xml:1:11-51
+-		INJECTED from E:\hoang\android\app\applock\patternlockview\src\main\AndroidManifest.xml
+-		INJECTED from E:\hoang\android\app\applock\patternlockview\src\main\AndroidManifest.xml
++		ADDED from C:\Users\Anh Trung\Documents\hoangld_lockapp\patternlockview\src\main\AndroidManifest.xml:1:11-51
++		INJECTED from C:\Users\Anh Trung\Documents\hoangld_lockapp\patternlockview\src\main\AndroidManifest.xml
++		INJECTED from C:\Users\Anh Trung\Documents\hoangld_lockapp\patternlockview\src\main\AndroidManifest.xml
+ 	android:versionName
+-		INJECTED from E:\hoang\android\app\applock\patternlockview\src\main\AndroidManifest.xml
+-		ADDED from E:\hoang\android\app\applock\patternlockview\src\main\AndroidManifest.xml:1:1-53
+-		INJECTED from E:\hoang\android\app\applock\patternlockview\src\main\AndroidManifest.xml
++		INJECTED from C:\Users\Anh Trung\Documents\hoangld_lockapp\patternlockview\src\main\AndroidManifest.xml
++		ADDED from C:\Users\Anh Trung\Documents\hoangld_lockapp\patternlockview\src\main\AndroidManifest.xml:1:1-53
++		INJECTED from C:\Users\Anh Trung\Documents\hoangld_lockapp\patternlockview\src\main\AndroidManifest.xml
+ 	xmlns:android
+-		ADDED from E:\hoang\android\app\applock\patternlockview\src\main\AndroidManifest.xml:1:1-53
++		ADDED from C:\Users\Anh Trung\Documents\hoangld_lockapp\patternlockview\src\main\AndroidManifest.xml:1:1-53
+ 	android:versionCode
+-		INJECTED from E:\hoang\android\app\applock\patternlockview\src\main\AndroidManifest.xml
+-		ADDED from E:\hoang\android\app\applock\patternlockview\src\main\AndroidManifest.xml:1:1-53
+-		INJECTED from E:\hoang\android\app\applock\patternlockview\src\main\AndroidManifest.xml
++		INJECTED from C:\Users\Anh Trung\Documents\hoangld_lockapp\patternlockview\src\main\AndroidManifest.xml
++		ADDED from C:\Users\Anh Trung\Documents\hoangld_lockapp\patternlockview\src\main\AndroidManifest.xml:1:1-53
++		INJECTED from C:\Users\Anh Trung\Documents\hoangld_lockapp\patternlockview\src\main\AndroidManifest.xml
+ uses-sdk
+-INJECTED from E:\hoang\android\app\applock\patternlockview\src\main\AndroidManifest.xml reason: use-sdk injection requested
+-INJECTED from E:\hoang\android\app\applock\patternlockview\src\main\AndroidManifest.xml
+-INJECTED from E:\hoang\android\app\applock\patternlockview\src\main\AndroidManifest.xml
+-INJECTED from E:\hoang\android\app\applock\patternlockview\src\main\AndroidManifest.xml
+-INJECTED from E:\hoang\android\app\applock\patternlockview\src\main\AndroidManifest.xml
++INJECTED from C:\Users\Anh Trung\Documents\hoangld_lockapp\patternlockview\src\main\AndroidManifest.xml reason: use-sdk injection requested
++INJECTED from C:\Users\Anh Trung\Documents\hoangld_lockapp\patternlockview\src\main\AndroidManifest.xml
++INJECTED from C:\Users\Anh Trung\Documents\hoangld_lockapp\patternlockview\src\main\AndroidManifest.xml
++INJECTED from C:\Users\Anh Trung\Documents\hoangld_lockapp\patternlockview\src\main\AndroidManifest.xml
++INJECTED from C:\Users\Anh Trung\Documents\hoangld_lockapp\patternlockview\src\main\AndroidManifest.xml
+ 	android:targetSdkVersion
+-		INJECTED from E:\hoang\android\app\applock\patternlockview\src\main\AndroidManifest.xml
+-		ADDED from E:\hoang\android\app\applock\patternlockview\src\main\AndroidManifest.xml
+-		INJECTED from E:\hoang\android\app\applock\patternlockview\src\main\AndroidManifest.xml
++		INJECTED from C:\Users\Anh Trung\Documents\hoangld_lockapp\patternlockview\src\main\AndroidManifest.xml
++		ADDED from C:\Users\Anh Trung\Documents\hoangld_lockapp\patternlockview\src\main\AndroidManifest.xml
++		INJECTED from C:\Users\Anh Trung\Documents\hoangld_lockapp\patternlockview\src\main\AndroidManifest.xml
+ 	android:minSdkVersion
+-		INJECTED from E:\hoang\android\app\applock\patternlockview\src\main\AndroidManifest.xml
+-		ADDED from E:\hoang\android\app\applock\patternlockview\src\main\AndroidManifest.xml
+-		INJECTED from E:\hoang\android\app\applock\patternlockview\src\main\AndroidManifest.xml
++		INJECTED from C:\Users\Anh Trung\Documents\hoangld_lockapp\patternlockview\src\main\AndroidManifest.xml
++		ADDED from C:\Users\Anh Trung\Documents\hoangld_lockapp\patternlockview\src\main\AndroidManifest.xml
++		INJECTED from C:\Users\Anh Trung\Documents\hoangld_lockapp\patternlockview\src\main\AndroidManifest.xml
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_1_8\" project-jdk-name=\"1.8\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/build/classes\" />\r\n  </component>\r\n  <component name=\"ProjectType\">\r\n    <option name=\"id\" value=\"Android\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	
++++ b/.idea/misc.xml	
+@@ -1,6 +1,69 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
++  <component name="DesignSurface">
++    <option name="filePathToZoomLevelMap">
++      <map>
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/drawable/bg_color_dialog.xml" value="0.3535" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/activity_camera.xml" value="0.35572916666666665" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/activity_change_draw.xml" value="0.35572916666666665" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/activity_change_pass_code.xml" value="0.35572916666666665" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/activity_image_description.xml" value="0.35208333333333336" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/activity_introduce.xml" value="0.35208333333333336" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/activity_main.xml" value="0.35208333333333336" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/activity_main2.xml" value="0.35208333333333336" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/activity_setting_question.xml" value="0.35208333333333336" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/activity_take_photo_thief.xml" value="0.35208333333333336" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/activity_unlock_setting.xml" value="0.35208333333333336" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/alert_show_image_recent.xml" value="0.35208333333333336" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/answer_is_not_correct_dialog.xml" value="0.35208333333333336" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/app_bar_main.xml" value="0.35208333333333336" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/blurlockview.xml" value="0.35208333333333336" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/content_main.xml" value="0.35208333333333336" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/drawer_main.xml" value="0.35208333333333336" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/fragment_back_ground.xml" value="0.35208333333333336" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/fragment_home.xml" value="0.35208333333333336" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/fragment_hot_back_ground.xml" value="0.35208333333333336" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/fragment_hot_themes.xml" value="0.35208333333333336" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/fragment_installed_back_ground.xml" value="0.35208333333333336" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/fragment_installed_themes.xml" value="0.35208333333333336" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/fragment_item.xml" value="0.35208333333333336" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/fragment_main2.xml" value="0.35208333333333336" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/fragment_private.xml" value="0.35208333333333336" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/fragment_save.xml" value="0.35208333333333336" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/fragment_setting.xml" value="0.35208333333333336" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/fragment_slideshow.xml" value="0.35208333333333336" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/fragment_themes.xml" value="0.35208333333333336" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/item_hot_background_adapter.xml" value="0.35208333333333336" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/item_hot_theme_adapter.xml" value="0.35208333333333336" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/layout_btn.xml" value="0.35208333333333336" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/layout_header.xml" value="0.35208333333333336" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/layout_lock_app.xml" value="0.35208333333333336" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/layout_lock_app_finger.xml" value="0.35208333333333336" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/layout_search.xml" value="0.35208333333333336" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/layout_tablayout.xml" value="0.35208333333333336" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/list_image.xml" value="0.35208333333333336" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/lock_newapp_dialog.xml" value="0.35208333333333336" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/nav_header_main.xml" value="0.35208333333333336" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/row_appshow.xml" value="0.35208333333333336" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/swipelock.xml" value="0.35208333333333336" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/view_btn_delete_image.xml" value="0.35208333333333336" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/view_catch_intruder_popup.xml" value="0.35208333333333336" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/view_change_pass_success_dialog.xml" value="0.35208333333333336" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/view_delete_dialog.xml" value="0.35208333333333336" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/view_des_screen_pass.xml" value="0.35208333333333336" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/view_input_text.xml" value="0.35208333333333336" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/view_keyboard_passcode.xml" value="0.35208333333333336" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/view_pattern.xml" value="0.35208333333333336" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/view_type_unlock_popup.xml" value="0.35208333333333336" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/viewnull.xml" value="0.35208333333333336" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/menu/activity_main_drawer.xml" value="0.35208333333333336" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/menu/imgdes.xml" value="0.35208333333333336" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/menu/main.xml" value="0.35208333333333336" />
++        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3535" />
++      </map>
++    </option>
++  </component>
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+     <output url="file://$PROJECT_DIR$/build/classes" />
+   </component>
+   <component name="ProjectType">
+Index: app/build.gradle
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>apply plugin: 'com.android.application'\r\n\r\nandroid {\r\n    compileSdkVersion 29\r\n    buildToolsVersion \"29.0.3\"\r\n    viewBinding {\r\n        enabled = true\r\n    }\r\n\r\n    compileOptions {\r\n        sourceCompatibility JavaVersion.VERSION_1_8\r\n        targetCompatibility JavaVersion.VERSION_1_8\r\n    }\r\n\r\n    defaultConfig {\r\n        applicationId \"com.tapbi.applock\"\r\n        minSdkVersion 21\r\n        targetSdkVersion 29\r\n        versionCode 1\r\n        versionName \"1.0\"\r\n        testInstrumentationRunner \"androidx.test.runner.AndroidJUnitRunner\"\r\n    }\r\n\r\n    buildTypes {\r\n        release {\r\n            minifyEnabled false\r\n            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'\r\n        }\r\n    }\r\n}\r\n\r\ndependencies {\r\n    implementation fileTree(dir: 'libs', include: ['*.jar'])\r\n\r\n    implementation project(path: ':patternlockview')\r\n\r\n    implementation 'androidx.appcompat:appcompat:1.2.0'\r\n    implementation 'androidx.legacy:legacy-support-v4:1.0.0'\r\n    implementation 'com.google.android.material:material:1.2.0'\r\n    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'\r\n    implementation 'androidx.navigation:navigation-fragment:2.3.0'\r\n    implementation 'androidx.navigation:navigation-ui:2.3.0'\r\n    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'\r\n    implementation 'androidx.recyclerview:recyclerview:1.1.0'\r\n    testImplementation 'junit:junit:4.12'\r\n    androidTestImplementation 'androidx.test.ext:junit:1.1.1'\r\n    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'\r\n    //noinspection GradleCompatible\r\n    implementation 'com.android.support:design:28.0.0'\r\n\r\n    implementation 'androidx.room:room-runtime:2.2.5'\r\n    annotationProcessor 'androidx.room:room-compiler:2.2.5'\r\n\r\n    implementation \"androidx.biometric:biometric:1.0.1\"\r\n\r\n\r\n    implementation 'com.github.bumptech.glide:glide:4.11.0'\r\n    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'\r\n\r\n    implementation 'com.jaeger.statusbarutil:library:1.4.0'\r\n\r\n\r\n    implementation 'org.greenrobot:eventbus:3.2.0'\r\n\r\n    implementation 'com.jakewharton.timber:timber:4.7.1'\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/build.gradle b/app/build.gradle
+--- a/app/build.gradle	
++++ b/app/build.gradle	
+@@ -15,6 +15,7 @@
+     defaultConfig {
+         applicationId "com.tapbi.applock"
+         minSdkVersion 21
++        //noinspection ExpiredTargetSdkVersion
+         targetSdkVersion 29
+         versionCode 1
+         versionName "1.0"
+Index: patternlockview/build/intermediates/incremental/mergeDebugShaders/merger.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<merger version=\"3\"><dataSet config=\"main\" ignore_pattern=\"!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~\"><source path=\"E:\\hoang\\android\\app\\applock\\patternlockview\\src\\main\\shaders\"/></dataSet><dataSet config=\"debug\" ignore_pattern=\"!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~\"><source path=\"E:\\hoang\\android\\app\\applock\\patternlockview\\src\\debug\\shaders\"/></dataSet></merger>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/patternlockview/build/intermediates/incremental/mergeDebugShaders/merger.xml b/patternlockview/build/intermediates/incremental/mergeDebugShaders/merger.xml
+--- a/patternlockview/build/intermediates/incremental/mergeDebugShaders/merger.xml	
++++ b/patternlockview/build/intermediates/incremental/mergeDebugShaders/merger.xml	
+@@ -1,2 +1,2 @@
+ <?xml version="1.0" encoding="utf-8"?>
+-<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="E:\hoang\android\app\applock\patternlockview\src\main\shaders"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="E:\hoang\android\app\applock\patternlockview\src\debug\shaders"/></dataSet></merger>
+\ No newline at end of file
++<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\Anh Trung\Documents\hoangld_lockapp\patternlockview\src\main\shaders"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\Anh Trung\Documents\hoangld_lockapp\patternlockview\src\debug\shaders"/></dataSet></merger>
+\ No newline at end of file
+Index: patternlockview/build/intermediates/incremental/packageDebugAssets/merger.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<merger version=\"3\"><dataSet config=\"main\" ignore_pattern=\"!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~\"><source path=\"E:\\hoang\\android\\app\\applock\\patternlockview\\src\\main\\assets\"/><source path=\"E:\\hoang\\android\\app\\applock\\patternlockview\\build\\intermediates\\shader_assets\\debug\\out\"/></dataSet><dataSet config=\"debug\" ignore_pattern=\"!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~\"><source path=\"E:\\hoang\\android\\app\\applock\\patternlockview\\src\\debug\\assets\"/></dataSet></merger>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/patternlockview/build/intermediates/incremental/packageDebugAssets/merger.xml b/patternlockview/build/intermediates/incremental/packageDebugAssets/merger.xml
+--- a/patternlockview/build/intermediates/incremental/packageDebugAssets/merger.xml	
++++ b/patternlockview/build/intermediates/incremental/packageDebugAssets/merger.xml	
+@@ -1,2 +1,2 @@
+ <?xml version="1.0" encoding="utf-8"?>
+-<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="E:\hoang\android\app\applock\patternlockview\src\main\assets"/><source path="E:\hoang\android\app\applock\patternlockview\build\intermediates\shader_assets\debug\out"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="E:\hoang\android\app\applock\patternlockview\src\debug\assets"/></dataSet></merger>
+\ No newline at end of file
++<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\Anh Trung\Documents\hoangld_lockapp\patternlockview\src\main\assets"/><source path="C:\Users\Anh Trung\Documents\hoangld_lockapp\patternlockview\build\intermediates\shader_assets\debug\out"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\Anh Trung\Documents\hoangld_lockapp\patternlockview\src\debug\assets"/></dataSet></merger>
+\ No newline at end of file
+Index: patternlockview/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>1<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n2<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n3    package=\"com.andrognito.patternlockview\"\r\n4    android:versionCode=\"1\"\r\n5    android:versionName=\"1.0\" >\r\n6\r\n7    <uses-sdk\r\n8        android:minSdkVersion=\"21\"\r\n8-->E:\\hoang\\android\\app\\applock\\patternlockview\\src\\main\\AndroidManifest.xml\r\n9        android:targetSdkVersion=\"29\" />\r\n9-->E:\\hoang\\android\\app\\applock\\patternlockview\\src\\main\\AndroidManifest.xml\r\n10\r\n11</manifest>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/patternlockview/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt b/patternlockview/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt
+--- a/patternlockview/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt	
++++ b/patternlockview/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt	
+@@ -6,8 +6,8 @@
+ 6
+ 7    <uses-sdk
+ 8        android:minSdkVersion="21"
+-8-->E:\hoang\android\app\applock\patternlockview\src\main\AndroidManifest.xml
++8-->C:\Users\Anh Trung\Documents\hoangld_lockapp\patternlockview\src\main\AndroidManifest.xml
+ 9        android:targetSdkVersion="29" />
+-9-->E:\hoang\android\app\applock\patternlockview\src\main\AndroidManifest.xml
++9-->C:\Users\Anh Trung\Documents\hoangld_lockapp\patternlockview\src\main\AndroidManifest.xml
+ 10
+ 11</manifest>
+Index: patternlockview/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<merger version=\"3\"><dataSet config=\"main\" ignore_pattern=\"!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~\"><source path=\"E:\\hoang\\android\\app\\applock\\patternlockview\\src\\main\\jniLibs\"/></dataSet><dataSet config=\"debug\" ignore_pattern=\"!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~\"><source path=\"E:\\hoang\\android\\app\\applock\\patternlockview\\src\\debug\\jniLibs\"/></dataSet></merger>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/patternlockview/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml b/patternlockview/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml
+--- a/patternlockview/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml	
++++ b/patternlockview/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml	
+@@ -1,2 +1,2 @@
+ <?xml version="1.0" encoding="utf-8"?>
+-<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="E:\hoang\android\app\applock\patternlockview\src\main\jniLibs"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="E:\hoang\android\app\applock\patternlockview\src\debug\jniLibs"/></dataSet></merger>
+\ No newline at end of file
++<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\Anh Trung\Documents\hoangld_lockapp\patternlockview\src\main\jniLibs"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\Anh Trung\Documents\hoangld_lockapp\patternlockview\src\debug\jniLibs"/></dataSet></merger>
+\ No newline at end of file

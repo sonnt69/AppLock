@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/ic_finger_white"
+            android:id="@+id/img_ic_finger"
+            android:layout_width="@dimen/size_icon_finger"
+            android:layout_height="@dimen/size_icon_finger"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:text="@string/usePassLock"
+            android:fontFamily="@font/lato_regular"
+            android:id="@+id/tv_type_unlock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_22dp"
+            android:textColor="@color/color_777777"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img_ic_finger" />
+
+        <View
+            android:layout_width="@dimen/width_0dp"
+            android:layout_height="@dimen/height_1dp"
+            android:background="@drawable/bg_path_tv"
+            app:layout_constraintEnd_toEndOf="@+id/tv_type_unlock"
+            app:layout_constraintStart_toStartOf="@+id/tv_type_unlock"
+            app:layout_constraintTop_toBottomOf="@+id/tv_type_unlock" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_popup"
+    android:orientation="vertical"
+    tools:ignore="RtlSymmetry">
+
+    <View
+        android:id="@+id/v_save"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/padding_16dp"
+        android:layout_marginTop="@dimen/padding_24dp"
+        android:layout_marginEnd="@dimen/margin_8dp"
+        android:background="?android:attr/selectableItemBackground"
+        app:layout_constraintBottom_toBottomOf="@+id/img_save"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/img_save" />
+
+    <ImageView
+        android:id="@+id/img_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/margin_8dp"
+        android:paddingStart="@dimen/padding_24dp"
+        android:paddingTop="@dimen/padding_24dp"
+        android:src="@drawable/ic_save"
+        app:layout_constraintEnd_toStartOf="@+id/tv_patternLock"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_patternLock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:paddingEnd="@dimen/padding_64dp"
+        android:text="@string/saveAll"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/text_14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/v_save"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/v_save" />
+
+    <View
+        android:id="@+id/v_delete"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/margin_16dp"
+        android:layout_marginEnd="@dimen/margin_8dp"
+        android:layout_marginBottom="@dimen/margin_16dp"
+        android:background="?android:attr/selectableItemBackground"
+        app:layout_constraintBottom_toBottomOf="@+id/img_delete"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/img_delete"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/img_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/margin_8dp"
+        android:paddingBottom="@dimen/padding_16dp"
+        android:src="@drawable/ic_delete"
+        app:layout_constraintEnd_toStartOf="@+id/tv_delete"
+        app:layout_constraintTop_toBottomOf="@+id/img_save" />
+
+    <TextView
+        android:id="@+id/tv_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="@string/deleteAll"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/text_14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/v_delete"
+        app:layout_constraintStart_toStartOf="@+id/tv_patternLock"
+        app:layout_constraintTop_toTopOf="@+id/v_delete" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

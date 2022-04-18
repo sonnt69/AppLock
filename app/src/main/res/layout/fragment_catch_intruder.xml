@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_2C3030"
+        android:animateLayoutChanges="true">
+
+        <ImageView
+            android:id="@+id/v_backGround"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_drawer"
+            app:layout_constraintTop_toTopOf="@+id/in_header" />
+
+        <include
+            android:layout_marginTop="@dimen/padding_top_activity"
+            android:id="@+id/in_header"
+            layout="@layout/layout_header"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_toolbar"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/tv_chooseAll"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:gravity="center"
+            android:paddingStart="@dimen/padding_16dp"
+            android:paddingEnd="@dimen/padding_16dp"
+            android:text="@string/chooseAll"
+            android:textColor="@color/color_1DB854"
+            android:textSize="@dimen/text_14sp"
+            app:layout_constraintBottom_toBottomOf="@+id/in_header"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/in_header" />
+
+        <TextView
+            android:id="@+id/tv_chooseOrCancel"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:gravity="center"
+            android:paddingStart="@dimen/padding_16dp"
+            android:paddingEnd="@dimen/padding_16dp"
+            android:text="@string/choose"
+            android:textColor="@color/color_1DB854"
+            android:textSize="@dimen/text_14sp"
+            app:layout_constraintBottom_toBottomOf="@+id/in_header"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/in_header" />
+
+
+        <TextView
+            android:id="@+id/tv_no_intruder"
+            android:text="@string/no_intruder_photo"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:fontFamily="@font/lato_regular"
+            android:textSize="@dimen/text_22sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/thief_av_rcv"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/padding_24dp"
+            android:paddingStart="@dimen/padding_12dp"
+            android:paddingEnd="@dimen/padding_12dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/in_header" />
+
+        <include
+            android:visibility="gone"
+            android:id="@+id/view_btn"
+            layout="@layout/view_btn_delete_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

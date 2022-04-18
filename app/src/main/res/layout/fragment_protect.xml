@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        tools:context=".ui.main.protect.ProtectFragment">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/margin_24dp"
+            android:paddingBottom="@dimen/margin_16dp"
+            android:layout_height="wrap_content">
+
+            <View
+                android:id="@+id/v_securitySetting"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/custom_ripple_view_home"
+                app:layout_constraintBottom_toBottomOf="@+id/tv_securitySetting_des"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/img_securitySetting" />
+
+            <ImageView
+                android:id="@+id/img_securitySetting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_end_icon_drawer"
+                android:src="@drawable/ic_security"
+                app:layout_constraintEnd_toStartOf="@+id/tv_securitySetting"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_securitySetting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_16dp"
+                android:text="@string/securitySetting"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/text_16sp"
+                android:fontFamily="@font/lato_regular"
+                app:layout_constraintStart_toEndOf="@+id/img_securitySetting"
+                app:layout_constraintTop_toTopOf="@+id/img_securitySetting" />
+
+            <TextView
+                android:id="@+id/tv_securitySetting_des"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginTop_des"
+                android:paddingBottom="@dimen/padding_16dp"
+                android:text="@string/securitySettingDes"
+                android:textColor="@color/color_777777"
+                android:textSize="@dimen/text_12sp"
+                android:fontFamily="@font/lato_medium"
+                app:layout_constraintStart_toEndOf="@+id/img_securitySetting"
+                app:layout_constraintTop_toBottomOf="@+id/tv_securitySetting"
+                app:layout_constraintWidth_percent="0.4" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_16dp"
+                android:src="@drawable/ic_next_more"
+                app:layout_constraintBottom_toBottomOf="@+id/tv_securitySetting"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/tv_securitySetting" />
+
+
+            <View
+                android:id="@+id/v_unlockSetting"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/custom_ripple_view_home"
+                app:layout_constraintBottom_toBottomOf="@+id/tv_unlockSetting_des"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/img_unlockSetting" />
+
+            <ImageView
+                android:id="@+id/img_unlockSetting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_end_icon_drawer"
+                android:src="@drawable/ic_unlock"
+                app:layout_constraintEnd_toStartOf="@+id/tv_unlockSetting"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/v_securitySetting" />
+
+            <TextView
+                android:id="@+id/tv_unlockSetting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_16dp"
+                android:text="@string/unlockSetting"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/text_16sp"
+                android:fontFamily="@font/lato_regular"
+                app:layout_constraintStart_toEndOf="@+id/img_unlockSetting"
+                app:layout_constraintTop_toTopOf="@+id/img_unlockSetting" />
+
+            <TextView
+                android:id="@+id/tv_unlockSetting_des"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginTop_des"
+                android:paddingBottom="@dimen/padding_16dp"
+                android:text="@string/unLockSettingDes"
+                android:textColor="@color/color_777777"
+                android:textSize="@dimen/text_12sp"
+                app:layout_constraintStart_toEndOf="@+id/img_unlockSetting"
+                app:layout_constraintTop_toBottomOf="@+id/tv_unlockSetting"
+                app:layout_constraintWidth_percent="0.4"
+                android:fontFamily="@font/lato_medium" />
+
+
+            <ImageView
+                android:id="@+id/img_type_unlock"
+                android:layout_width="@dimen/width_110dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_8dp"
+                android:layout_marginEnd="@dimen/margin_16dp"
+                android:layout_marginBottom="@dimen/padding_8dp"
+                android:background="@drawable/bg_ripple_arrow_down"
+                app:layout_constraintBottom_toBottomOf="@+id/tv_unlockSetting"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/tv_unlockSetting" />
+
+            <TextView
+                android:id="@+id/tv_type_unlock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLength="11"
+                android:paddingStart="@dimen/padding_10dp"
+                android:text="@string/patternLock"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/text_12sp"
+                app:layout_constraintBottom_toBottomOf="@+id/tv_unlockSetting"
+                app:layout_constraintStart_toStartOf="@+id/img_type_unlock"
+                app:layout_constraintTop_toTopOf="@+id/tv_unlockSetting" />
+
+
+            <View
+                android:id="@+id/v_FingerPrint"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/custom_ripple_view_home"
+                app:layout_constraintBottom_toBottomOf="@+id/tv_FingerPrint_des"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/img_FingerPrint" />
+
+            <ImageView
+                android:id="@+id/img_FingerPrint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_end_icon_drawer"
+                android:src="@drawable/ic_finger"
+                app:layout_constraintEnd_toStartOf="@+id/tv_FingerPrint"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/v_unlockSetting" />
+
+            <TextView
+                android:id="@+id/tv_FingerPrint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_16dp"
+                android:text="@string/fingerPrint"
+                android:textColor="@color/colorWhite"
+                android:fontFamily="@font/lato_regular"
+                android:textSize="@dimen/text_16sp"
+                app:layout_constraintStart_toEndOf="@+id/img_FingerPrint"
+                app:layout_constraintTop_toTopOf="@+id/img_FingerPrint" />
+
+            <TextView
+                android:id="@+id/tv_FingerPrint_des"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginTop_des"
+                android:paddingBottom="@dimen/padding_16dp"
+                android:text="@string/fingerDes"
+                android:textColor="@color/color_777777"
+                android:textSize="@dimen/text_12sp"
+                android:fontFamily="@font/lato_medium"
+                app:layout_constraintStart_toEndOf="@+id/img_FingerPrint"
+                app:layout_constraintTop_toBottomOf="@+id/tv_FingerPrint"
+                app:layout_constraintWidth_percent="0.4" />
+
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/swt_FingerPrint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_8dp"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:src="@drawable/ic_next_more"
+                android:thumb="@drawable/thumb_selector"
+                app:layout_constraintBottom_toBottomOf="@+id/tv_FingerPrint"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/tv_FingerPrint"
+                app:track="@drawable/bg_track_switch" />
+
+
+            <View
+                android:id="@+id/v_catchIntruder"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/custom_ripple_view_home"
+                app:layout_constraintBottom_toBottomOf="@+id/tv_catchIntruder_des"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/img_catchIntruder" />
+
+            <ImageView
+                android:id="@+id/img_catchIntruder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_end_icon_drawer"
+                android:src="@drawable/ic_intruder"
+                app:layout_constraintEnd_toStartOf="@+id/tv_catchIntruder"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/v_FingerPrint" />
+
+            <TextView
+                android:id="@+id/tv_catchIntruder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_16dp"
+                android:fontFamily="@font/lato_regular"
+                android:text="@string/catchIntruder"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/text_16sp"
+                app:layout_constraintStart_toEndOf="@+id/img_catchIntruder"
+                app:layout_constraintTop_toTopOf="@+id/img_catchIntruder" />
+
+            <TextView
+                android:id="@+id/tv_catchIntruder_des"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginTop_des"
+                android:paddingBottom="@dimen/padding_16dp"
+                android:text="@string/catchIntruderDes"
+                android:textColor="@color/color_777777"
+                android:textSize="@dimen/text_12sp"
+                android:fontFamily="@font/lato_medium"
+                app:layout_constraintStart_toEndOf="@+id/img_catchIntruder"
+                app:layout_constraintTop_toBottomOf="@+id/tv_catchIntruder"
+                app:layout_constraintWidth_percent="0.4" />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/swt_catchIntruder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_8dp"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:thumb="@drawable/thumb_selector"
+                app:layout_constraintBottom_toBottomOf="@+id/tv_catchIntruder"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/tv_catchIntruder"
+                app:track="@drawable/bg_track_switch" />
+
+
+            <View
+                android:id="@+id/v_newlyInstalledAppLock"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/custom_ripple_view_home"
+                app:layout_constraintBottom_toBottomOf="@+id/tv_newlyInstalledAppLock_des"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/img_newlyInstalledAppLock" />
+
+            <ImageView
+                android:id="@+id/img_newlyInstalledAppLock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_end_icon_drawer"
+                android:src="@drawable/ic_lock"
+                app:layout_constraintEnd_toStartOf="@+id/tv_newlyInstalledAppLock"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/v_catchIntruder" />
+
+            <TextView
+                android:id="@+id/tv_newlyInstalledAppLock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lato_regular"
+                android:layout_marginTop="@dimen/margin_16dp"
+                android:text="@string/newlyInstalledAppLock"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/text_16sp"
+                app:layout_constraintStart_toEndOf="@+id/img_newlyInstalledAppLock"
+                app:layout_constraintTop_toTopOf="@+id/img_newlyInstalledAppLock" />
+
+            <TextView
+                android:id="@+id/tv_newlyInstalledAppLock_des"
+                android:layout_width="0dp"
+                android:fontFamily="@font/lato_medium"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginTop_des"
+                android:paddingBottom="@dimen/padding_16dp"
+                android:text="@string/newlyInstalledAppLockDes"
+                android:textColor="@color/color_777777"
+                android:textSize="@dimen/text_12sp"
+                app:layout_constraintStart_toEndOf="@+id/img_newlyInstalledAppLock"
+                app:layout_constraintTop_toBottomOf="@+id/tv_newlyInstalledAppLock"
+                app:layout_constraintWidth_percent="0.4" />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/swt_newlyInstalledAppLock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_8dp"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:src="@drawable/ic_next_more"
+                android:thumb="@drawable/thumb_selector"
+                app:layout_constraintBottom_toBottomOf="@+id/tv_newlyInstalledAppLock"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/tv_newlyInstalledAppLock"
+                app:track="@drawable/bg_track_switch" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </ScrollView>
+</layout>
+

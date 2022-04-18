@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout_pattern">
+
+        <com.andrognito.patternlockview.PatternLockView
+            android:id="@+id/ChangeDraw_patternLock"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:Lock9View_lock9_nodeOnSrc="?attr/nodeOnSrc"
+            app:Lock9View_lock9_nodeOnSrc_error="?attr/nodeOnSrcError"
+            app:Lock9View_lock9_nodeSrc="?attr/nodeSrc"
+            app:aspectRatioEnabled="true"
+            app:correctStateColor="?attr/correctStateColor_pattern"
+            app:dotNormalSize="@dimen/dotNormalSize_pattern"
+            app:dotSelectedSize="@dimen/dotSelectedSize_pattern"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:normalStateColor="?attr/normalStateColor_pattern"
+            app:pathWidth="@dimen/width_path_pattern"
+            app:wrongStateColor="?attr/wrongStateColor_pattern" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

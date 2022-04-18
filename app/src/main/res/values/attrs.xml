@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="theme">
+        <attr name="background" format="reference" />
+        <attr name="dot_input_passCode" format="reference" />
+        <attr name="dot_input_passCode_error" format="reference" />
+
+        <attr name="bg_path_input_passCode" format="reference" />
+        <attr name="bg_path_input_passCode_error" format="reference" />
+
+        <attr name="bg_btn_passCode" format="reference" />
+        <attr name="bg_btn_back_passCode" format="reference" />
+        <attr name="bg_btn_x_passCode" format="reference" />
+
+        <attr name="nodeOnSrc" format="reference" />
+        <attr name="nodeSrc" format="reference" />
+        <attr name="nodeOnSrcError" format="reference" />
+
+        <attr name="correctStateColor_pattern" format="reference" />
+        <attr name="normalStateColor_pattern" format="reference" />
+        <attr name="wrongStateColor_pattern" format="reference" />
+    </declare-styleable>
+</resources>

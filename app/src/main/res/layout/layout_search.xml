@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_toolbar"
+        android:id="@+id/lyo_search"
+        android:background="@drawable/bg_edt_search">
+
+        <ImageView
+            android:id="@+id/img_search"
+            android:layout_width="@dimen/margin_12dp"
+            android:layout_height="@dimen/margin_12dp"
+            android:layout_marginStart="@dimen/margin_16dp"
+            android:src="@drawable/ic_search"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:paddingStart="@dimen/margin_16dp"
+            android:id="@+id/edt_search"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:hint="@string/searchApp"
+            android:fontFamily="@font/lato_medium"
+            android:lines="1"
+            android:textCursorDrawable="@null"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"
+            android:textSize="@dimen/text_12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/img_search"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

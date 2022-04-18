@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_toolbar"
+        android:layout_marginStart="@dimen/margin_16dp"
+        android:id="@+id/in_tabLayout"
+        android:layout_marginEnd="@dimen/margin_16dp">
+
+        <TextView
+            android:id="@+id/tv_left"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/height_toolbar"
+            android:gravity="center"
+            android:text="@string/hot"
+            android:fontFamily="@font/lato_regular"
+            android:textColor="@color/color_1DB854"
+            android:textSize="@dimen/text_18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="0.49" />
+
+        <View
+            android:id="@+id/v_left"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/height_3dp"
+            android:background="@drawable/bg_path_tv_tablayout"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_left"
+            app:layout_constraintEnd_toEndOf="@+id/tv_left"
+            app:layout_constraintStart_toStartOf="@+id/tv_left"
+            app:layout_constraintWidth_percent="0.3" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:background="@drawable/path_midside_tab_layout"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/tv_right"
+            app:layout_constraintHeight_percent="0.4"
+            app:layout_constraintStart_toEndOf="@+id/tv_left"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/tv_right"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/height_toolbar"
+            android:gravity="center"
+            android:text="@string/installed"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/text_18sp"
+            android:fontFamily="@font/lato_regular"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="0.49" />
+
+        <View
+            android:id="@+id/v_right"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/height_3dp"
+            android:background="@drawable/bg_path_tv_tablayout"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_right"
+            app:layout_constraintEnd_toEndOf="@+id/tv_right"
+            app:layout_constraintStart_toStartOf="@+id/tv_right"
+            app:layout_constraintWidth_percent="0.3" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

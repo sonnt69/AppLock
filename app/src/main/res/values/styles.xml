@@ -1,0 +1,169 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+<!--        <item name="colorPrimary">@color/colorPrimary</item>-->
+<!--        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+<!--        <item name="colorAccent">@color/colorAccent</item>-->
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:splitMotionEvents">false</item>
+    </style>
+
+<!--    <style name="SettingFragmentstyle" parent="AppTheme">-->
+<!--        <item name="android:windowBackground">@drawable/bg_drawer</item>-->
+<!--    </style>-->
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.AppCompat.Translucent" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:background">#33000000</item> <!-- Or any transparency or color you need -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:splitMotionEvents">false</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="TransparentStatusBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:statusBarColor">@color/color_2C3030</item>
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:splitMotionEvents">false</item>
+        <item name="android:windowDisablePreview">true</item>
+
+    </style>
+
+    <style name="Theme_Default" parent="TransparentStatusBar">
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:splitMotionEvents">false</item>
+
+        <item name="background">@color/color_2C3030</item>
+        <item name="nodeOnSrc">@drawable/ic_dot_pattern_green</item>
+        <item name="nodeOnSrcError">@drawable/ic_theme_default_dot_03</item>
+        <item name="nodeSrc">@drawable/ic_bg_dot_black_pattern</item>
+
+        <item name="dot_input_passCode">@drawable/ic_dot_green</item>
+        <item name="dot_input_passCode_error">@drawable/ic_theme_default_dot_02</item>
+
+
+        <item name="bg_path_input_passCode">@drawable/bg_path_green</item>
+        <item name="bg_path_input_passCode_error">@drawable/theme_default_path_er_passcode</item>
+
+
+        <item name="bg_btn_passCode">@drawable/bg_btn_pass</item>
+        <item name="bg_btn_back_passCode">@drawable/ic_btn_back</item>
+        <item name="bg_btn_x_passCode">@drawable/ic_btn_x</item>
+        <item name="correctStateColor_pattern">@color/color_1DB854</item>
+        <item name="normalStateColor_pattern">@color/color_1DB854</item>
+        <item name="wrongStateColor_pattern">@color/color_FB5A07</item>
+    </style>
+
+
+    <style name="Theme_01" parent="TransparentStatusBar">
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:splitMotionEvents">false</item>
+
+        <item name="background">@drawable/bg_theme_01</item>
+        <item name="nodeOnSrc">@drawable/ic_theme0101_dot_pattern</item>
+        <item name="nodeSrc">@drawable/ic_bg_theme0101_dot_pattern</item>
+        <item name="nodeOnSrcError">@drawable/ic_theme0103_dot_pattern</item>
+
+        <item name="dot_input_passCode">@drawable/ic_theme0101_dot_input</item>
+        <item name="dot_input_passCode_error">@drawable/ic_theme0103_dot_passcode_er</item>
+
+        <item name="bg_path_input_passCode">@drawable/ic_theme0103_path_passcode</item>
+        <item name="bg_path_input_passCode_error">@drawable/ic_theme0103_path_passcode</item>
+
+        <item name="bg_btn_passCode">@drawable/bg_btn_pass</item>
+        <item name="bg_btn_back_passCode">@drawable/bg_theme_01_btn_back</item>
+        <item name="bg_btn_x_passCode">@drawable/bg_theme_01_btn_x</item>
+        <item name="correctStateColor_pattern">@color/color_FD921A</item>
+        <item name="normalStateColor_pattern">@color/color_FD921A</item>
+        <item name="wrongStateColor_pattern">@color/color_FD921A</item>
+    </style>
+
+
+    <style name="Theme_02" parent="TransparentStatusBar">
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:splitMotionEvents">false</item>
+
+        <item name="background">@drawable/bg_theme_02</item>
+
+        <item name="nodeOnSrc">@drawable/theme0201_ic_dot_pattern</item>
+        <item name="nodeSrc">@drawable/ic_bg_theme0101_dot_pattern</item>
+        <item name="nodeOnSrcError">@drawable/theme_0203_ic_dot_pattern</item>
+
+        <item name="dot_input_passCode">@drawable/theme0201_ic_dot_passcode</item>
+        <item name="dot_input_passCode_error">@drawable/theme_0203_ic_dot_passcode_er</item>
+
+        <item name="bg_path_input_passCode">@drawable/theme0201_path_passcode</item>
+        <item name="bg_path_input_passCode_error">@drawable/ic_theme0103_path_passcode</item>
+
+        <item name="bg_btn_passCode">@drawable/theme0201_bg_btn_passcode</item>
+        <item name="bg_btn_back_passCode">@drawable/theme_02_bg_btn_back</item>
+        <item name="bg_btn_x_passCode">@drawable/theme_02_bg_btn_x</item>
+        <item name="correctStateColor_pattern">@color/color_7F00FF</item>
+        <item name="normalStateColor_pattern">@color/color_7F00FF</item>
+        <item name="wrongStateColor_pattern">@color/color_FB5A07</item>
+    </style>
+
+    <style name="Theme_03" parent="TransparentStatusBar">
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:splitMotionEvents">false</item>
+
+        <item name="background">@drawable/bg_theme_03</item>
+        <item name="nodeOnSrc">@drawable/theme0301_ic_dot_pattern</item>
+        <item name="nodeOnSrcError">@drawable/theme0303_ic_dot_pattern</item>
+        <item name="nodeSrc">@drawable/ic_bg_theme0101_dot_pattern</item>
+
+        <item name="dot_input_passCode">@drawable/theme0301_ic_dot_passcode</item>
+        <item name="dot_input_passCode_error">@drawable/theme0301_ic_dot_passcode_e</item>
+
+        <item name="bg_path_input_passCode">@drawable/theme0301_path_passcode</item>
+        <item name="bg_path_input_passCode_error">@drawable/ic_theme0103_path_passcode</item>
+
+        <item name="bg_btn_passCode">@drawable/theme0301_bg_btn_passcode</item>
+        <item name="bg_btn_back_passCode">@drawable/theme03_bg_btn_back</item>
+        <item name="bg_btn_x_passCode">@drawable/theme03_bg_btn_x</item>
+        <item name="correctStateColor_pattern">@color/color_5B86E5</item>
+        <item name="normalStateColor_pattern">@color/color_5B86E5</item>
+        <item name="wrongStateColor_pattern">@color/color_FB5A07</item>
+    </style>
+
+    <style name="Theme_04" parent="TransparentStatusBar">
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:splitMotionEvents">false</item>
+
+        <item name="background">@drawable/bg_theme_04</item>
+        <item name="nodeOnSrc">@drawable/theme0401_ic_dot_pattern</item>
+        <item name="nodeSrc">@drawable/ic_bg_theme0101_dot_pattern</item>
+        <item name="nodeOnSrcError">@drawable/theme0403_ic_dot_pattern</item>
+
+        <item name="dot_input_passCode">@drawable/theme0401_ic_dot_passcode</item>
+        <item name="dot_input_passCode_error">@drawable/theme0401_ic_dot_passcode_er</item>
+
+        <item name="bg_path_input_passCode">@drawable/theme0401_path_passcode</item>
+        <item name="bg_path_input_passCode_error">@drawable/ic_theme0103_path_passcode</item>
+
+        <item name="bg_btn_passCode">@drawable/theme0401_bg_btn_passcode</item>
+        <item name="bg_btn_back_passCode">@drawable/theme04_bg_btn_back</item>
+        <item name="bg_btn_x_passCode">@drawable/theme04_bg_btn_x</item>
+
+        <item name="correctStateColor_pattern">@color/color_799F0C</item>
+        <item name="normalStateColor_pattern">@color/color_799F0C</item>
+        <item name="wrongStateColor_pattern">@color/color_FB5A07</item>
+    </style>
+</resources>

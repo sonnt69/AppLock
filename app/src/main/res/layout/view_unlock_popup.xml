@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_popup"
+        android:orientation="vertical"
+        tools:ignore="RtlSymmetry">
+
+        <View
+            android:id="@+id/v_patternLock"
+            android:layout_width="178dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/rippel_btn"
+            app:layout_constraintBottom_toBottomOf="@+id/img_patternLock"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/img_patternLock" />
+
+
+        <ImageView
+            android:id="@+id/img_patternLock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/padding_16dp"
+            android:paddingTop="@dimen/padding_24dp"
+            android:src="@drawable/ic_pattern_lock"
+            app:layout_constraintEnd_toStartOf="@+id/tv_patternLock"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_patternLock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp"
+            android:layout_marginEnd="44dp"
+            android:layout_marginBottom="24dp"
+            android:text="@string/patternLock"
+            android:fontFamily="@font/lato_regular"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/text_14sp"
+            app:layout_constraintBottom_toTopOf="@+id/v_passCode"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/v_patternLock" />
+
+        <ImageView
+            android:id="@+id/iv_patternLock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="29dp"
+            android:src="@drawable/ic_tick"
+            app:layout_constraintBottom_toTopOf="@+id/v_passCode"
+            app:layout_constraintEnd_toEndOf="@+id/v_patternLock" />
+
+        <View
+            android:id="@+id/v_passCode"
+            android:layout_width="178dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="18dp"
+            android:background="@drawable/ripple_btn_2"
+            app:layout_constraintBottom_toBottomOf="@+id/img_delete"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/img_delete"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/img_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="17dp"
+            android:src="@drawable/ic_passcode_lock"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/tv_passCode"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img_patternLock"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/tv_passCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="59dp"
+            android:fontFamily="@font/lato_regular"
+            android:text="@string/passCode"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/text_14sp"
+            app:layout_constraintBottom_toBottomOf="@+id/v_passCode"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/v_patternLock"
+            app:layout_constraintVertical_bias="0.482" />
+
+        <ImageView
+            android:id="@+id/iv_passCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_tick"
+            app:layout_constraintEnd_toEndOf="@id/v_passCode"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/tv_passCode"
+            app:layout_constraintTop_toTopOf="@+id/v_passCode" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
