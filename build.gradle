@@ -1,7 +1,39 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
-plugins {
-    id 'com.android.application' version '7.1.0' apply false
-    id 'com.android.library' version '7.1.0' apply false
+buildscript {
+    apply from: "dependencies.gradle"
+
+    repositories {
+        google()
+        //noinspection JcenterRepositoryObsolete,GrDeprecatedAPIUsage
+        jcenter()
+        maven { url 'https://maven.fabric.io/public' }
+        maven { url "https://jitpack.io" }
+        maven {
+            url 'https://oss.sonatype.org/content/repositories/snapshots/'
+        }
+    }
+    dependencies {
+        //noinspection AndroidGradlePluginVersion
+        classpath 'com.android.tools.build:gradle:4.1.1'
+        //noinspection DifferentKotlinGradleVersion
+        classpath "com.google.dagger:hilt-android-gradle-plugin:$versions.hiltVersion"
+        classpath "com.google.gms:google-services:$versions.googleServices"
+        classpath "com.novoda:bintray-release:$versions.bintrayPlugin"
+        //noinspection GradleDependency
+        classpath 'com.google.firebase:firebase-crashlytics-gradle:2.8.0'
+
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        //noinspection JcenterRepositoryObsolete,GrDeprecatedAPIUsage
+        jcenter()
+    }
+}
+tasks.withType(Javadoc).all {
+    enabled = false
 }
 
 task clean(type: Delete) {

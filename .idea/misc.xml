@@ -1,6 +1,314 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/drawable-v21/rippel_btn.xml" value="0.2775" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/drawable-v21/rippel_btn_alow.xml" value="0.2725" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/drawable-v21/rippel_btn_white.xml" value="0.2725" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/drawable/bg_ripple_arrow_down.xml" value="0.2965" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/drawable/bg_ripple_btn_green.xml" value="0.275" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/drawable/bg_ripple_btn_left.xml" value="0.275" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/drawable/bg_ripple_btn_right.xml" value="0.2965" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/drawable/bg_shadow_drawer.xml" value="1.1" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/drawable/bg_splash.xml" value="0.2965" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/drawable/bg_splash2.xml" value="0.278" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/drawable/custom_background_navigation_view_home.xml" value="0.2125" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/drawable/custom_ripple_view_home.xml" value="0.2125" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/drawable/custom_shadow_drawer.xml" value="0.2125" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/drawable/ic_lock_black_24dp.xml" value="0.1955" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/drawable/ic_search.xml" value="0.2125" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/drawable/ic_setting.xml" value="0.148" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/drawable/ripple_btn_2.xml" value="0.2775" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/drawable/ripple_view_radius.xml" value="0.2775" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/drawable/state_btn_confirm.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/drawable/state_btn_green.xml" value="0.1615" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/drawable/state_press.xml" value="0.33" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/drawable/thumb_selector.xml" value="0.2965" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/activity_lock_setting.xml" value="0.2677083333333333" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/activity_main.xml" value="0.17083333333333334" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/activity_main2.xml" value="0.20364583333333333" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/dialog_answer_is_not_correct.xml" value="0.20364583333333333" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/dialog_change_pass_success.xml" value="0.3390625" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/dialog_lock_newapp.xml" value="0.309375" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/fragment_back_ground.xml" value="0.3546875" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/fragment_camera.xml" value="0.3546875" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/fragment_catch_intruder.xml" value="0.309375" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/fragment_change_draw.xml" value="0.4648148148148148" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/fragment_change_pass_code.xml" value="0.3546875" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/fragment_image_description.xml" value="0.309375" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/fragment_item.xml" value="0.309375" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/fragment_privacy.xml" value="0.33" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/fragment_protect.xml" value="0.33" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/fragment_search.xml" value="0.3546875" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/fragment_setting_question.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/fragment_slideshow.xml" value="0.309375" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/fragment_splash.xml" value="0.3546875" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/fragment_themes.xml" value="0.3546875" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/fragment_unlock_setting.xml" value="0.5" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/item_background_adapter.xml" value="0.3546875" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/item_theme_adapter.xml" value="0.309375" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/layout_alert_show_image_recent.xml" value="0.309375" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/layout_app_bar_main.xml" value="0.17083333333333334" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/layout_btn.xml" value="0.3546875" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/layout_content_main.xml" value="0.17083333333333334" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/layout_drawer_main.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/layout_header.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/layout_list_image.xml" value="0.3546875" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/layout_lock_app.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/layout_lock_app_finger.xml" value="0.3546875" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/layout_nav_header_main.xml" value="0.17083333333333334" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/layout_row_appshow.xml" value="0.21145833333333333" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/layout_search.xml" value="0.309375" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/layout_tablayout.xml" value="0.75" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/view_btn_delete_image.xml" value="0.309375" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/view_catch_intruder_popup.xml" value="0.6039387308533917" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/view_delete_dialog.xml" value="0.3307291666666667" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/view_des_screen_pass.xml" value="0.22777777777777777" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/view_input_text.xml" value="0.3546875" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/view_keyboard_passcode.xml" value="0.3546875" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/view_pattern.xml" value="0.3546875" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/view_type_unlock_pop_up.xml" value="0.9" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/view_type_unlock_popup.xml" value="1.0" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/view_unlock_popup.xml" value="0.990791896869245" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/view_unlock_popup2.xml" value="0.9" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/menu/menu_drawer.xml" value="0.3546875" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/menu/menu_images.xml" value="0.3546875" />
+        <entry key="..\:/Users/Admin/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/menu/menu_main.xml" value="0.3546875" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/app/src/main/res/layout/activity_change_pass_code.xml" value="0.171875" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/drawable-v21/rippel_btn.xml" value="0.3535" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/drawable-v21/rippel_btn_alow.xml" value="0.3535" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3535" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/drawable/bg_color_dialog.xml" value="0.3535" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/drawable/ic_search.xml" value="0.3535" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/drawable/ic_tick.xml" value="0.3535" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/activity_camera.xml" value="0.35572916666666665" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/activity_catch_intruder.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/activity_change_draw.xml" value="0.35572916666666665" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/activity_change_pass_code.xml" value="0.35572916666666665" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/activity_image_description.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/activity_introduce.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/activity_main.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/activity_main2.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/activity_setting_question.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/activity_take_photo_thief.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/activity_take_picture.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/activity_unlock_setting.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/alert_show_image_recent.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/answer_is_not_correct_dialog.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/app_bar_main.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/blurlockview.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/content_main.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/dialog_answer_is_not_correct.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/dialog_change_pass_success.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/dialog_lock_newapp.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/drawer_main.xml" value="0.25" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/fragment_add_background.xml" value="0.34739583333333335" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/fragment_back_ground.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/fragment_camera.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/fragment_catchIntruder.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/fragment_catch_intruder.xml" value="0.34739583333333335" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/fragment_change_draw.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/fragment_change_pass_code.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/fragment_home.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/fragment_hot_back_ground.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/fragment_hot_themes.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/fragment_image_description.xml" value="0.34739583333333335" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/fragment_installed_back_ground.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/fragment_installed_themes.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/fragment_item.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/fragment_main2.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/fragment_privacy.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/fragment_private.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/fragment_protect.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/fragment_save.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/fragment_setting.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/fragment_setting_question.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/fragment_slideshow.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/fragment_splash.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/fragment_take_picture.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/fragment_themes.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/fragment_unlock_setting.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/ic_search.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/ic_search_app.xml" value="4.0" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/item_background_adapter.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/item_hot_background_adapter.xml" value="0.25" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/item_hot_theme_adapter.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/item_theme_adapter.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/layout_alert_show_image_recent.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/layout_app_bar_main.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/layout_blurlockview.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/layout_btn.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/layout_content_main.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/layout_drawer_main.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/layout_header.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/layout_list_image.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/layout_lock_app.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/layout_lock_app_finger.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/layout_nav_header_main.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/layout_row_appshow.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/layout_search.xml" value="0.4740331491712707" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/layout_swipelock.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/layout_tablayout.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/layout_view_btn_delete_image.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/layout_view_catch_intruder_popup.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/layout_view_change_pass_success_dialog.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/layout_view_delete_dialog.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/layout_view_des_screen_pass.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/layout_view_input_text.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/layout_view_keyboard_passcode.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/layout_view_pattern.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/layout_view_type_unlock_popup.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/list_image.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/lock_newapp_dialog.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/nav_header_main.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/row_appshow.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/swipelock.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/view_btn_delete_image.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/view_catch_intruder_popup.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/view_change_pass_success_dialog.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/view_delete_dialog.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/view_des_screen_pass.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/view_input_text.xml" value="0.33" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/view_keyboard_passcode.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/view_pattern.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/view_type_unlock_popup.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/layout/viewnull.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/menu/activity_main_drawer.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/menu/imgdes.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/menu/main.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/menu/menu_drawer.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/menu/menu_images.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/menu/menu_main.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3535" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/activity_main.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/fragment_change_draw.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Documents/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/fragment_protect.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Downloads/hoangld_lockapp/app/src/main/res/layout/activity_camera.xml" value="0.34739583333333335" />
+        <entry key="..\:/Users/Anh Trung/Downloads/hoangld_lockapp/app/src/main/res/layout/activity_change_draw.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Downloads/hoangld_lockapp/app/src/main/res/layout/activity_change_pass_code.xml" value="0.34739583333333335" />
+        <entry key="..\:/Users/Anh Trung/Downloads/hoangld_lockapp/app/src/main/res/layout/activity_image_description.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Downloads/hoangld_lockapp/app/src/main/res/layout/activity_introduce.xml" value="0.34739583333333335" />
+        <entry key="..\:/Users/Anh Trung/Downloads/hoangld_lockapp/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Anh Trung/Downloads/hoangld_lockapp/app/src/main/res/layout/activity_main2.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Downloads/hoangld_lockapp/app/src/main/res/layout/activity_setting_question.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Downloads/hoangld_lockapp/app/src/main/res/layout/activity_take_photo_thief.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Downloads/hoangld_lockapp/app/src/main/res/layout/activity_unlock_setting.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Downloads/hoangld_lockapp/app/src/main/res/layout/alert_show_image_recent.xml" value="0.34739583333333335" />
+        <entry key="..\:/Users/Anh Trung/Downloads/hoangld_lockapp/app/src/main/res/layout/answer_is_not_correct_dialog.xml" value="0.34739583333333335" />
+        <entry key="..\:/Users/Anh Trung/Downloads/hoangld_lockapp/app/src/main/res/layout/app_bar_main.xml" value="0.25" />
+        <entry key="..\:/Users/Anh Trung/Downloads/hoangld_lockapp/app/src/main/res/layout/content_main.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Downloads/hoangld_lockapp/app/src/main/res/layout/drawer_main.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Downloads/hoangld_lockapp/app/src/main/res/layout/fragment_back_ground.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Downloads/hoangld_lockapp/app/src/main/res/layout/fragment_home.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Downloads/hoangld_lockapp/app/src/main/res/layout/fragment_hot_back_ground.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Downloads/hoangld_lockapp/app/src/main/res/layout/fragment_hot_themes.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Downloads/hoangld_lockapp/app/src/main/res/layout/fragment_installed_back_ground.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Downloads/hoangld_lockapp/app/src/main/res/layout/fragment_installed_themes.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Downloads/hoangld_lockapp/app/src/main/res/layout/fragment_item.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Downloads/hoangld_lockapp/app/src/main/res/layout/fragment_private.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Downloads/hoangld_lockapp/app/src/main/res/layout/fragment_save.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Downloads/hoangld_lockapp/app/src/main/res/layout/fragment_setting.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Downloads/hoangld_lockapp/app/src/main/res/layout/fragment_slideshow.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Downloads/hoangld_lockapp/app/src/main/res/layout/fragment_themes.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Downloads/hoangld_lockapp/app/src/main/res/layout/item_hot_background_adapter.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Downloads/hoangld_lockapp/app/src/main/res/layout/item_hot_theme_adapter.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Downloads/hoangld_lockapp/app/src/main/res/layout/layout_btn.xml" value="0.33" />
+        <entry key="..\:/Users/Anh Trung/Downloads/hoangld_lockapp/app/src/main/res/layout/layout_header.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Downloads/hoangld_lockapp/app/src/main/res/layout/layout_lock_app.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Downloads/hoangld_lockapp/app/src/main/res/layout/layout_lock_app_finger.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Downloads/hoangld_lockapp/app/src/main/res/layout/layout_search.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Downloads/hoangld_lockapp/app/src/main/res/layout/layout_tablayout.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Downloads/hoangld_lockapp/app/src/main/res/layout/list_image.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Downloads/hoangld_lockapp/app/src/main/res/layout/lock_newapp_dialog.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Downloads/hoangld_lockapp/app/src/main/res/layout/nav_header_main.xml" value="0.25" />
+        <entry key="..\:/Users/Anh Trung/Downloads/hoangld_lockapp/app/src/main/res/layout/row_appshow.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Downloads/hoangld_lockapp/app/src/main/res/layout/swipelock.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Downloads/hoangld_lockapp/app/src/main/res/layout/view_btn_delete_image.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Downloads/hoangld_lockapp/app/src/main/res/layout/view_catch_intruder_popup.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Downloads/hoangld_lockapp/app/src/main/res/layout/view_change_pass_success_dialog.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Downloads/hoangld_lockapp/app/src/main/res/layout/view_delete_dialog.xml" value="0.5" />
+        <entry key="..\:/Users/Anh Trung/Downloads/hoangld_lockapp/app/src/main/res/layout/view_des_screen_pass.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Downloads/hoangld_lockapp/app/src/main/res/layout/view_input_text.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Downloads/hoangld_lockapp/app/src/main/res/layout/view_keyboard_passcode.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Downloads/hoangld_lockapp/app/src/main/res/layout/view_pattern.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Downloads/hoangld_lockapp/app/src/main/res/layout/view_type_unlock_popup.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Downloads/hoangld_lockapp/app/src/main/res/layout/viewnull.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Downloads/hoangld_lockapp/app/src/main/res/menu/activity_main_drawer.xml" value="0.34739583333333335" />
+        <entry key="..\:/Users/Anh Trung/Downloads/hoangld_lockapp/app/src/main/res/menu/imgdes.xml" value="0.34739583333333335" />
+        <entry key="..\:/Users/Anh Trung/Downloads/hoangld_lockapp/app/src/main/res/menu/main.xml" value="0.34739583333333335" />
+        <entry key="..\:/Users/Anh Trung/Downloads/hoangld_lockapp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1025" />
+        <entry key="..\:/Users/Anh Trung/Downloads/hoangld_lockapp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.328" />
+        <entry key="..\:/Users/Anh Trung/Music/hoangld_lockapp/app/src/main/res/drawable-v21/rippel_btn.xml" value="0.3535" />
+        <entry key="..\:/Users/Anh Trung/Music/hoangld_lockapp/app/src/main/res/drawable-v21/rippel_btn_alow.xml" value="0.267" />
+        <entry key="..\:/Users/Anh Trung/Music/hoangld_lockapp/app/src/main/res/drawable-v21/rippel_btn_white.xml" value="0.3535" />
+        <entry key="..\:/Users/Anh Trung/Music/hoangld_lockapp/app/src/main/res/drawable/bg_btn_white_shadow.xml" value="0.267" />
+        <entry key="..\:/Users/Anh Trung/Music/hoangld_lockapp/app/src/main/res/drawable/ic_arrow_back_black_24dp.xml" value="0.267" />
+        <entry key="..\:/Users/Anh Trung/Music/hoangld_lockapp/app/src/main/res/drawable/ic_arrow_down.xml" value="0.267" />
+        <entry key="..\:/Users/Anh Trung/Music/hoangld_lockapp/app/src/main/res/drawable/ic_search.xml" value="0.267" />
+        <entry key="..\:/Users/Anh Trung/Music/hoangld_lockapp/app/src/main/res/drawable/side_nav_bar.xml" value="0.267" />
+        <entry key="..\:/Users/Anh Trung/Music/hoangld_lockapp/app/src/main/res/layout/activity_main.xml" value="0.35572916666666665" />
+        <entry key="..\:/Users/Anh Trung/Music/hoangld_lockapp/app/src/main/res/layout/activity_unlock_setting.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Music/hoangld_lockapp/app/src/main/res/layout/fragment_back_ground.xml" value="0.25" />
+        <entry key="..\:/Users/Anh Trung/Music/hoangld_lockapp/app/src/main/res/layout/fragment_camera.xml" value="0.34739583333333335" />
+        <entry key="..\:/Users/Anh Trung/Music/hoangld_lockapp/app/src/main/res/layout/fragment_home.xml" value="0.35572916666666665" />
+        <entry key="..\:/Users/Anh Trung/Music/hoangld_lockapp/app/src/main/res/layout/fragment_protect.xml" value="0.34739583333333335" />
+        <entry key="..\:/Users/Anh Trung/Music/hoangld_lockapp/app/src/main/res/layout/fragment_setting_question.xml" value="0.34739583333333335" />
+        <entry key="..\:/Users/Anh Trung/Music/hoangld_lockapp/app/src/main/res/layout/fragment_splash.xml" value="0.34739583333333335" />
+        <entry key="..\:/Users/Anh Trung/Music/hoangld_lockapp/app/src/main/res/layout/fragment_themes.xml" value="0.34739583333333335" />
+        <entry key="..\:/Users/Anh Trung/Music/hoangld_lockapp/app/src/main/res/layout/fragment_unlock_setting.xml" value="0.34739583333333335" />
+        <entry key="..\:/Users/Anh Trung/Music/hoangld_lockapp/app/src/main/res/layout/item_background_adapter.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Music/hoangld_lockapp/app/src/main/res/layout/item_theme_adapter.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Music/hoangld_lockapp/app/src/main/res/layout/layout_alert_show_image_recent.xml" value="0.34739583333333335" />
+        <entry key="..\:/Users/Anh Trung/Music/hoangld_lockapp/app/src/main/res/layout/layout_app_bar_main.xml" value="0.34739583333333335" />
+        <entry key="..\:/Users/Anh Trung/Music/hoangld_lockapp/app/src/main/res/layout/layout_btn.xml" value="0.34739583333333335" />
+        <entry key="..\:/Users/Anh Trung/Music/hoangld_lockapp/app/src/main/res/layout/layout_content_main.xml" value="0.35572916666666665" />
+        <entry key="..\:/Users/Anh Trung/Music/hoangld_lockapp/app/src/main/res/layout/layout_drawer_main.xml" value="0.35572916666666665" />
+        <entry key="..\:/Users/Anh Trung/Music/hoangld_lockapp/app/src/main/res/layout/layout_header.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/Anh Trung/Music/hoangld_lockapp/app/src/main/res/layout/layout_list_image.xml" value="0.34739583333333335" />
+        <entry key="..\:/Users/Anh Trung/Music/hoangld_lockapp/app/src/main/res/layout/layout_lock_app.xml" value="0.35572916666666665" />
+        <entry key="..\:/Users/Anh Trung/Music/hoangld_lockapp/app/src/main/res/layout/layout_lock_app_finger.xml" value="0.35572916666666665" />
+        <entry key="..\:/Users/Anh Trung/Music/hoangld_lockapp/app/src/main/res/layout/layout_nav_header_main.xml" value="0.35572916666666665" />
+        <entry key="..\:/Users/Anh Trung/Music/hoangld_lockapp/app/src/main/res/layout/layout_row_appshow.xml" value="0.35572916666666665" />
+        <entry key="..\:/Users/Anh Trung/Music/hoangld_lockapp/app/src/main/res/layout/layout_search.xml" value="0.35572916666666665" />
+        <entry key="..\:/Users/Anh Trung/Music/hoangld_lockapp/app/src/main/res/layout/view_btn_delete_image.xml" value="0.34739583333333335" />
+        <entry key="..\:/Users/Anh Trung/Music/hoangld_lockapp/app/src/main/res/layout/view_catch_intruder_popup.xml" value="0.34739583333333335" />
+        <entry key="..\:/Users/Anh Trung/Music/hoangld_lockapp/app/src/main/res/layout/view_delete_dialog.xml" value="0.34739583333333335" />
+        <entry key="..\:/Users/Anh Trung/Music/hoangld_lockapp/app/src/main/res/layout/view_des_screen_pass.xml" value="0.34739583333333335" />
+        <entry key="..\:/Users/Anh Trung/Music/hoangld_lockapp/app/src/main/res/layout/view_input_text.xml" value="0.34739583333333335" />
+        <entry key="..\:/Users/Anh Trung/Music/hoangld_lockapp/app/src/main/res/layout/view_keyboard_passcode.xml" value="0.34739583333333335" />
+        <entry key="..\:/Users/Anh Trung/Music/hoangld_lockapp/app/src/main/res/layout/view_pattern.xml" value="0.34739583333333335" />
+        <entry key="..\:/Users/Anh Trung/Music/hoangld_lockapp/app/src/main/res/layout/view_type_unlock_popup.xml" value="0.34739583333333335" />
+        <entry key="..\:/Users/Anh Trung/Music/hoangld_lockapp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.338" />
+        <entry key="..\:/Users/Anh Trung/Music/hoangld_lockapp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.338" />
+        <entry key="..\:/Users/Anh/Desktop/app_lock/hoangld_lockapp_com.tapbi.applock/app/src/main/res/drawable/ic_search.xml" value="0.2203125" />
+        <entry key="..\:/Users/Anh/Desktop/app_lock/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Anh/Desktop/app_lock/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/fragment_catch_intruder.xml" value="0.18931159420289856" />
+        <entry key="..\:/Users/Anh/Desktop/app_lock/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/fragment_home.xml" value="0.11979166666666667" />
+        <entry key="..\:/Users/Anh/Desktop/app_lock/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/fragment_privacy.xml" value="0.1956521739130435" />
+        <entry key="..\:/Users/Anh/Desktop/app_lock/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/fragment_search.xml" value="0.22" />
+        <entry key="..\:/Users/Anh/Desktop/app_lock/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/fragment_splash.xml" value="0.11979166666666667" />
+        <entry key="..\:/Users/Anh/Desktop/app_lock/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/layout_content_main.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/Anh/Desktop/app_lock/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/layout_header.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/Anh/Desktop/app_lock/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/layout_row_appshow.xml" value="0.1956521739130435" />
+        <entry key="..\:/Users/Anh/Desktop/app_lock/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/layout_search.xml" value="0.5347334410339257" />
+        <entry key="..\:/Users/Anh/Desktop/app_lock/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/layout_tablayout.xml" value="0.1956521739130435" />
+        <entry key="..\:/Users/Anh/Desktop/app_lock/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/view_btn_delete_image.xml" value="0.33" />
+        <entry key="..\:/Users/nts69/Downloads/hoangld_lockapp_com.tapbi.applock/app/src/main/res/drawable/bg_splash.xml" value="0.1605" />
+        <entry key="..\:/Users/nts69/Downloads/hoangld_lockapp_com.tapbi.applock/app/src/main/res/drawable/ic_apps_black_24dp.xml" value="0.1" />
+        <entry key="..\:/Users/nts69/Downloads/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/activity_main.xml" value="0.16458333333333333" />
+        <entry key="..\:/Users/nts69/Downloads/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/fragment_main2.xml" value="0.1" />
+        <entry key="..\:/Users/nts69/Downloads/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/fragment_privacy.xml" value="0.1" />
+        <entry key="..\:/Users/nts69/Downloads/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/fragment_private.xml" value="0.1" />
+        <entry key="..\:/Users/nts69/Downloads/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/fragment_save.xml" value="0.1" />
+        <entry key="..\:/Users/nts69/Downloads/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/fragment_splash.xml" value="0.2" />
+        <entry key="..\:/Users/nts69/Downloads/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/layout_header.xml" value="0.1609375" />
+        <entry key="..\:/Users/nts69/Downloads/hoangld_lockapp_com.tapbi.applock/app/src/main/res/layout/layout_splash.xml" value="0.16458333333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
