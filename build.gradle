@@ -14,7 +14,7 @@ buildscript {
     }
     dependencies {
         //noinspection AndroidGradlePluginVersion
-        classpath 'com.android.tools.build:gradle:4.1.1'
+        classpath 'com.android.tools.build:gradle:4.2.2'
         //noinspection DifferentKotlinGradleVersion
         classpath "com.google.dagger:hilt-android-gradle-plugin:$versions.hiltVersion"
         classpath "com.google.gms:google-services:$versions.googleServices"
@@ -30,6 +30,12 @@ allprojects {
         google()
         //noinspection JcenterRepositoryObsolete,GrDeprecatedAPIUsage
         jcenter()
+    }
+
+    configurations.all {
+        resolutionStrategy {
+            force 'org.xerial:sqlite-jdbc:3.34.0'
+        }
     }
 }
 tasks.withType(Javadoc).all {
